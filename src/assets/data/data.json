@@ -1,0 +1,63 @@
+[
+    {
+      "id": "12312235",
+      "name": "Samsung S23 Ultra",
+      "image": "assets/images/samsungs23.jpeg",
+      "rating": 5,
+      "comments": 83,
+      "originalPrice": 1000.99,
+      "discountPercentage": 10,
+      "price": 999.99
+    },
+    {
+      "id": "12312236",
+      "name": "iPhone 14 Pro",
+      "image": "assets/images/iphone14pro.jpeg",
+      "rating": 4.5,
+      "comments": 120,
+      "originalPrice": 1200.00,
+      "discountPercentage": 15,
+      "price": 1020.00
+    },
+    {
+      "id": "12312237",
+      "name": "Google Pixel 7",
+      "image": "assets/images/pixel7.jpeg",
+      "rating": 4,
+      "comments": 75,
+      "originalPrice": 800.00,
+      "discountPercentage": 5,
+      "price": 760.00
+    },
+    {
+      "id": "12312238",
+      "name": "OnePlus 11",
+      "image": "assets/images/oneplus11.jpeg",
+      "rating": 4.2,
+      "comments": 98,
+      "originalPrice": 950.00,
+      "discountPercentage": 8,
+      "price": 874.00
+    },
+    {
+      "id": "12312239",
+      "name": "Xiaomi Mi 13",
+      "image": "assets/images/mi13.jpeg",
+      "rating": 4.7,
+      "comments": 150,
+      "originalPrice": 700.00,
+      "discountPercentage": 12,
+      "price": 616.00
+    },
+    {
+        "id": "12312240",
+        "name": "Sony Xperia 1 V",
+        "image": "assets/images/xperia1v.jpeg",
+        "rating": 4.6,
+        "comments": 88,
+        "originalPrice": 1100.00,
+        "discountPercentage": 10,
+        "price": 990.00
+      }
+  ]
+  
