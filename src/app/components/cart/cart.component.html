@@ -1,0 +1,16 @@
+<div class="cart">
+  <h3>Your Cart ({{ cartTotal$ | async }})</h3>
+  @for(item of cart$ | async; track item) {
+  <app-cart-item [item]="item" />
+  } @empty {
+  <div class="cart-empty">
+    <img src="assets/images/empty-cart-1.png" alt="cart-empty">
+    <p>Cart items empty</p>
+
+  </div>
+}
+@if((cart$ | async)?.length) {
+<button (click)="clearCart()" class="clear-cart">Clear Cart</button>
+
+}
+</div>
