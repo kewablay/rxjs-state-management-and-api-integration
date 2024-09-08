@@ -1,0 +1,6 @@
+<h2>Products List</h2>
+<div class="product-list">
+  @for(product of products$ | async; track product) {
+  <app-product-item [product]="product" />
+  }
+</div>
